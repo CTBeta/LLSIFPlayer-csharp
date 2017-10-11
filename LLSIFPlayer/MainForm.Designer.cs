@@ -1,6 +1,6 @@
-﻿namespace Ll
+﻿namespace LLSIFPlayer
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -40,9 +40,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(27, 12);
+            this.button1.Location = new System.Drawing.Point(20, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(266, 23);
+            this.button1.Size = new System.Drawing.Size(200, 18);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start (Wait)";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,35 +51,39 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(193, 95);
+            this.textBox1.Location = new System.Drawing.Point(108, 82);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
+            this.textBox1.Size = new System.Drawing.Size(76, 21);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(193, 148);
+            this.textBox2.Location = new System.Drawing.Point(108, 115);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
+            this.textBox2.Size = new System.Drawing.Size(76, 21);
             this.textBox2.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 98);
+            this.label1.Location = new System.Drawing.Point(64, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 15);
+            this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 3;
-            this.label1.Text = "offset";
+            this.label1.Text = "位移";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 151);
+            this.label2.Location = new System.Drawing.Point(64, 118);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
+            this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "amp";
+            this.label2.Text = "速率";
             // 
             // timer1
             // 
@@ -87,19 +92,20 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(27, 52);
+            this.button2.Location = new System.Drawing.Point(20, 42);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(266, 23);
+            this.button2.Size = new System.Drawing.Size(200, 18);
             this.button2.TabIndex = 5;
             this.button2.Text = "Start (Loop)";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(317, 198);
+            this.ClientSize = new System.Drawing.Size(238, 158);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -107,9 +113,10 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.Text = "LL";
+            this.Name = "MainForm";
+            this.Text = " LLSIFPlayer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

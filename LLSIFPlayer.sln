@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ll", "Ll\Ll.csproj", "{A4BF3CC6-4DCF-4DC5-9834-4586E25668D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLSIFPlayer", "LLSIFPlayer\LLSIFPlayer.csproj", "{A4BF3CC6-4DCF-4DC5-9834-4586E25668D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C6D2C79-1066-4B50-8FC8-E80A07D5D1CB}
 	EndGlobalSection
 EndGlobal

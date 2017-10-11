@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ll
+namespace LLSIFPlayer
 {
     class KeyAction: IComparable<KeyAction>
     {
